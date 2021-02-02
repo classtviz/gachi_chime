@@ -12,4 +12,4 @@ cd chimes
 gdown https://drive.google.com/uc?id=1uo4ObQuPfZsk68b1980j0VdAlhROk5Yd
 tar -xf gachi_wavs.tar.xz
 cp *.wav $theme_path
-echo "$(ls $theme_path)"
+rm -rf /tmp/chimes
